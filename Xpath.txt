@@ -1,0 +1,4 @@
+Automation Test Challenge:
+1. Provide the ONE XPath to return the requests which are submitted and approved in 2019 (Request Status = Approved && Date Submitted = 2019)
+---------------------------------------------------------------------------------------------------------------------------
+== >Tien Phan Anwser: //table//div/p[text()='Approved']//following::td[1]//div[contains(text(), '2019')]//ancestor::tr
