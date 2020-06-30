@@ -1,11 +1,5 @@
 package pages.api;
 
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-
-import static io.restassured.RestAssured.given;
-import static util.Config.getProperty;
-
-@JsonPropertyOrder({"id", "title"})
 public class TypicodeAPIPage {
     private int id;
     private String title;
